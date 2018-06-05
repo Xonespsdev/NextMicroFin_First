@@ -31,33 +31,33 @@
                     </li>
 
                           <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Profile</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user"></i>Profile</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-puzzle-piece"></i><a href="{{route('adminhistory')}}">History</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="{{route('vision')}}">Vision and Mission</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="{{route('organization')}}">Organization Chart</a></li>
+                            <li><i class="fa fa-puzzle-piece"></i><a href="{{route('admin.history')}}">History</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="{{route('admin.vision')}}">Vision and Mission</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="{{route('admin.organization')}}">Organization Chart</a></li>
                         </ul>
                     </li>
                            <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Fiance</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-money"></i>Fiance</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-puzzle-piece"></i><a href="#">Credit Ability</a></li>
                             <li><i class="fa fa-id-badge"></i><a href="#">Check balance</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="{{route('credit')}}">Credit</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="{{route('payment')}}">Payment</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="{{route('currency')}}">Currency</a></li>
+                            <li><i class="fa fa-credit-card"></i><a href="{{route('admin.credit')}}">Credit</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="{{route('admin.payment')}}">Payment</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="{{route('admin.currency')}}">Currency</a></li>
                         </ul>
                     </li>
                              <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Services</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-id-badge"></i><a href="{{route('adminservice')}}">Service</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="{{route('admin.service')}}">Service</a></li>
                         </ul>
                     </li>
                               <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>About Us</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-id-badge"></i><a href="{{route('about')}}">About</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="{{route('admin.about')}}">About</a></li>
                         </ul>
                     </li>
 

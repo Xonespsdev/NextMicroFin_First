@@ -24,7 +24,7 @@
       <div class="item" style="background-image: url('img/intro-carousel/3.jpg');"></div>
       <div class="item" style="background-image: url('img/intro-carousel/4.jpg');"></div>
       <div class="item" style="background-image: url('img/intro-carousel/5.jpg');"></div>
-    </div>
+    </div>   
 
   </section><!-- #intro -->
 

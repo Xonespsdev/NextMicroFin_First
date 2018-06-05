@@ -1113,7 +1113,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .credits a {
   color: #0c2e8a;
 }
-#register {
+#activity {
+      width: 100%;
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+/*#register {
   background-color: #81F7D8;
   padding: 3px;
   margin: 5px 0 5px 10px;
@@ -1132,4 +1140,4 @@ body.mobile-nav-active #mobile-nav-toggle {
      border-radius: 5px 5px 10px 10px;
     box-shadow: 4px 5px 1px 1px rgba(0,0,0,.2)!important;
     
-}
+}*/

@@ -1,34 +1,32 @@
 @extends('admins.main')
 @section('content')
 @section('title', 'History')
-
+@section('secondtitle', 'This is History page')
 <div class="panel-body">
-<ul class="nav nav-tabs nav-justified">
+<ul class="nav nav-tabs nav-justified" id ="tab-menu">
 	<li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#tablao">Lao</a></li>
 	<li class="nav-item"><a data-toggle="tab" class="nav-link" href="#tabenglish">English</a></li>
 </ul>
-<br>
-<ul>
-     <div class="form-group">
-      <input type="text" class="form-control" name="title" id="title" placeholder="Title" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-      <div class="validation"></div>
-    </div>
-</ul>
-
+<form action="{{route('history.store')}}" method="POST">
 <div class="tab-content">
+	{{ csrf_field() }}
 	<div class="tab-pane active" id="tablao">
-		<textarea id="editor_tiny" class="editor" name="body"></textarea>
+		<br>
+		<h4>Lao</h4>
+		<br>
+		<textarea class="editor" name="body_la">{{isset($page_history_la) ? $page_history_la->content : ""}}</textarea>
 	</div>
+	
 	<div class="tab-pane" id="tabenglish">
-		<textarea id="editor_tiny" class="editor" name="body"></textarea>
+		<br>
+		<h4>English</h4>
+		<br>
+		<textarea class="editor" name="body_en">{{isset($page_history_en) ? $page_history_en->content : ""}}</textarea>
 	</div>
 </div>
- <div class="text-center"><button type="submit">Send Message</button></div>
+
+<button type="submit" class="btn btn-primary btn-block mt-3 save-button">Save</button>
+</form>
 </div>
-
-
-
-
-
 
 @endsection

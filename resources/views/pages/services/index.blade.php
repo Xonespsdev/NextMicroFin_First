@@ -46,4 +46,25 @@
 
       </div>
     </section><!-- #services -->
+        <section id="clients" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our service</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+
+        <div class="owl-carousel clients-carousel">
+          <a href="#" title=""><img src="img/clients/client-1.png" alt=""></a>
+          <a href="#" title=""><img src="img/clients/client-2.png" alt=""></a>
+          <a href="#" title=""><img src="img/clients/client-3.png" alt=""></a>
+          <a href="#" title=""><img src="img/clients/client-4.png" alt=""></a>
+          <a href="#" title=""><img src="img/clients/client-5.png" alt=""></a>
+          <a href="#" title=""><img src="img/clients/client-6.png" alt=""></a>
+          <a href="#" title=""><img src="img/clients/client-7.png" alt=""></a>
+          <a href="#" title=""><img src="img/clients/client-8.png" alt=""></a>
+        </div>
+
+      </div>
+    </section><!-- #clients -->
+
     @endsection

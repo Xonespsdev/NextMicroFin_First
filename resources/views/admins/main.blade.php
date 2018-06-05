@@ -5,6 +5,7 @@
 @include('admins.partials.sidebar')
 <div id="right-panel" class="right-panel">
 @include('admins.partials.navbar')
+@include('_include._message')
 <div class="container">
 @yield('content')
 </div>
