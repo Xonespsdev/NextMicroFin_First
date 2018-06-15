@@ -18,6 +18,7 @@ return [
 'activity' => 'Activity',
 'about' => 'About Us',
 'register'=> 'Register',
+'contact'=> 'Contact Us',
 
 
 ];

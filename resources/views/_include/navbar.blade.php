@@ -3,7 +3,7 @@
     <div class="container clearfix">
       <div class="contact-info float-left">
         <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-        <i class="fa fa-phone"></i> +1 5589 55488 55
+        <i class="fa fa-phone"></i><<a href="" title=""> +1 5589 55488 55</a>
       </div>
       <div class="social-links float-right">
         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -25,7 +25,7 @@
     {{-- <h1><a href="/" class="scrollto">Reve<span>al</span></a></h1>
      <link href="img/apple-touch-icon.png" rel="logo"> --}}
     <!-- Uncomment below if you prefer to use an image logo -->
-    <a href="/"><img src="img/micro.png" alt="Micro" title="Home" /></a>
+    <a href="/"><img src="{{url('/')}}/img/micro.png" alt="Micro" title="Home" /></a>
   </div>
 
   <nav id="nav-menu-container">
@@ -51,6 +51,7 @@
    
       {{-- <li><a href="/contact">Contact</a></li> --}}
       <li class="{{ Route::current()->getName() == 'about' ? 'menu-active' : '' }}"><a href="{{route('about')}}">{{ __('locales.about') }}</a></li>
+      <li class="{{ Route::current()->getName() == 'contact' ? 'menu-active' : '' }}"><a href="{{route('contact')}}">{{ __('locales.contact') }}</a></li>
       <li class="{{ Route::current()->getName() == 'register' ? 'menu-active' : '' }}"><a href="{{route('register')}}">{{ __('locales.register') }}</a></li>
       <li class="menu-has-children"><a href="{{Session::get('lang') }}">Languages</a>
         <ul>

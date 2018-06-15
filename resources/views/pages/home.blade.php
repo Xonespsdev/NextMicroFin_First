@@ -2,31 +2,147 @@
 @section('content')
 @section('title', 'Micron Fin')
 
-  <!--==========================
-    Top Bar
-  ============================-->
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
 
-    <div class="intro-content">
-      <h2>Making <span>your ideas</span><br>happen!</h2>
-      <div>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
-      </div>
+
+<style>
+
+</style>
+
+
+{{-- <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script> --}}
+
+
+
+<section id ="intro">
+  <div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner" id="slide" id="intro-carousel" class="owl-carousel">
+    <div class="carousel-item active">
+      <a href="#" title=""><img class="img" src="img/slides/1.jpg" alt="Third slide"></a>
     </div>
+    <div class="carousel-item">
+      <a href="#" title=""><img class="img" src="img/slides/2.jpg" alt="Third slide"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="#" title=""><img class="img" src="img/slides/3.jpg" alt="Third slide"></a>
+    </div>
+    <div class="carousel-item">
+       <a href="#" title=""><img class="img" src="img/slides/4.jpg" alt="Third slide"></a>
+    </div>
+    <div class="carousel-item">
+       <a href="#" title=""><img class="img" src="img/slides/5.jpg" alt="Third slide"></a>
+    </div>
+  </div>
+  <div id="buttoncolor">
+  <a class="prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+  </div>
+</section>
 
-    <div id="intro-carousel" class="owl-carousel" >
-      <div class="item" style="background-image: url('img/intro-carousel/1.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/2.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/3.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/4.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/5.jpg');"></div>
-    </div>   
+<style type="text/css" media="screen">
+  #slide {
+  padding: 20px 0;
+  border-image: 10px;
 
-  </section><!-- #intro -->
+  }
+  #img {
+    border-image: 3px;
+    box-shadow: 0px 2px 10px 30px;
+    width: 100%;
+
+  }
+  
+  #buttoncolor {
+    color: blue;
+    font-size: 24px;
+    background-color: red;
+  }
+
+  .carousel-indicators li {
+    cursor: pointer;
+  height: 6px;
+  width: 6px;
+  margin: 0 2px;
+  background-color:#42B1BA;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  }
+  .next, .prev {
+
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #42B1BA;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+
+  }
+  .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(66, 177, 186);
+  border-radius: 10px;
+}
+
+  @media only screen and (max-width: 300px) {
+  .prev, .next {font-size: 11px}
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+</style>
 
     <!--==========================
       Clients Section
@@ -40,7 +156,7 @@
 
         <div class="owl-carousel clients-carousel">
           <img src="img/clients/client-1.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
+          <img src="img/clients/client-2.png" alt=""> 
           <img src="img/clients/client-3.png" alt="">
           <img src="img/clients/client-4.png" alt="">
           <img src="img/clients/client-5.png" alt="">

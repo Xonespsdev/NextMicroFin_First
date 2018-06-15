@@ -2,7 +2,6 @@
 @section('content')
 @section ('title' , 'History')
     <section id="about" class="wow fadeInUp">
-
       <div class="container">
         <div class="row">
           <div>
@@ -20,7 +19,6 @@
               <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
               <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
             </ul>
-
           </div>
         </div>
       </div>                   

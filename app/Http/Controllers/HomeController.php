@@ -49,10 +49,14 @@ class HomeController extends Controller
 
       public function register(Request $request){
           return view('pages.register.index');
-
+      
       }
        public function activity(Request $request){
           return view('pages.activity.index');
       }
+
+      public function contact(Request $request){
+          return view('pages.contact.index');
+}
 
 }

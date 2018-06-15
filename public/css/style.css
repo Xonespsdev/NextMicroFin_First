@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #FAFAFB;
+  background: #232F3F;
   padding: 10px 0;
   border-bottom: 1px solid #eee;
   font-size: 14px;
@@ -104,7 +104,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #555;
+  color: #F4F4F5;
+
 }
 
 #topbar .contact-info a:hover {
@@ -123,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a {
-  color: #555;
+  color: #F4F4F5;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -146,8 +147,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: #F4F9F9;
-  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  background: #42B1BA;
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.25);
 }
 
 #header #logo h1 {
@@ -197,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 60vh;
   position: relative;
-  background: url("../img/intro-carousel/1.jpg") no-repeat;
+  /*background: url("../img/intro-carousel/1.jpg") no-repeat;*/
   background-size: cover;
 }
 
@@ -369,7 +370,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #555;
+  color: #FCFCFE;
   font-family: "Raleway", 'noto-regular', sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -377,7 +378,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a, .nav-menu > a.menu-active {
-  color: #50d8af;
+  color: #232F3F;
 }
 
 .nav-menu > li {
@@ -429,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #50D8AF;
+  color: #232F3F;
 
 }
 
@@ -442,13 +443,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Nav Styling */
 #mobile-nav {
   position: fixed;
-  top: 0;
-  padding-top: 20px;
+ top: 72px;
+  padding-top: 30px;
   bottom: 0;
   z-index: 998;
   background: rgba(52, 59, 64, 0.9);
-  left: -250px;
-  width: 250px;
+  left: -415px;
+  width: 415px;
   overflow-y: auto;
   transition: 0.4s;
 }
@@ -485,7 +486,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul .menu-has-children i {
   position: absolute;
-  right: 50px;
+  right: 100px;
   z-index: 99;
   padding: 3px 0 5px 10px;
   cursor: pointer;

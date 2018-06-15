@@ -1,7 +1,6 @@
 @extends('pages.main')
 @section('content')
 @section ('title' , 'Currency')
- <section id="intro">
 
      <section id="team" class="wow fadeInUp">
       <div class="container">
